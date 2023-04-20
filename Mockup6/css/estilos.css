@@ -1,0 +1,72 @@
+.navbar{
+    padding: 2rem;
+}
+
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden; /* Para asegurar que el texto no se desborde de la imagen */
+  }
+  
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff; 
+    font-size: 18px;
+    font-weight: bold;
+    transition: opacity 0.3s ease; /* Agrego una transición de opacidad para un efecto suave */
+}
+
+  
+.image-container img {
+    transition: transform 0.3s ease; /* Agrego una transición suave al hacer zoom */
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1); /* Cambio la escala de la imagen al hacer hover */
+  }
+
+.tiendas{
+    background-color: #f6edff
+    ;
+}
+
+.panoramas{
+    background-color: #f6edff;
+}
+
+.titulos{
+    margin-left: 1%;
+    color: rgb(37, 37, 37);
+}
+
+.image-container{
+    margin-top: 20px;
+}
+
+.mapa{
+    background-color: #f6edff;
+
+}
+
+
+.pie_pagina{
+    background-color: #3a328a;
+    color: #fff;
+}
+
+.pie_pagina h2 {
+    text-align: center;
+}
